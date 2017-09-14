@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-LB_FILE = open("c:\phxlb214.conf", 'r')
+LB_FILE = open("c:\xxxxx.conf", 'r')
 
 def add_server_conf(server):
     for lines in LB_FILE.readlines():
