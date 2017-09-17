@@ -26,7 +26,7 @@ def uni_sort_cr():
 
 def server_conf(serverName):
 
-    LB_FILE = open("c:\Software\phxlb214.conf", 'r')
+    LB_FILE = open("c:\Software\ASDFQWER.conf", 'r')
 
     for lines in LB_FILE:
         line = lines.split(" ")
@@ -39,7 +39,7 @@ def server_conf(serverName):
 
 def service_conf(serviceName):
 
-    LB_FILE = open("c:\Software\phxlb214.conf", 'r')
+    LB_FILE = open("c:\Software\ASDFQWER.conf", 'r')
 
     for lines in LB_FILE:
         line = lines.split(" ")
@@ -61,7 +61,7 @@ def service_conf(serviceName):
 
 def vip_conf(vipName):
 
-    LB_FILE = open("c:\Software\phxlb214.conf", 'r')
+    LB_FILE = open("c:\Software\ASDFQWER.conf", 'r')
 
     for lines in LB_FILE:
         line = lines.split(" ")
@@ -80,7 +80,7 @@ def vip_conf(vipName):
 
  #def get_pool_conf():
 #    pool_conf = open("c:\Temp\pool_conf.txt", "r")
-#    conf_file = open("c:\phxlb214.conf", "r")
+#    conf_file = open("c:\ASDFQWER.conf", "r")
 #
 #    for ser in pool_conf.readlines():
 #        # print (ser)
@@ -97,8 +97,8 @@ def vip_conf(vipName):
 #    conf_file.close()
 
 def format_file():
-    SRC_LB_FILE = open("c:\Software\phxlb214_src.conf", 'r')
-    NEW_LB_FILE = open("c:\Software\phxlb214.conf", 'w')
+    SRC_LB_FILE = open("c:\Software\ASDFQWER_src.conf", 'r')
+    NEW_LB_FILE = open("c:\Software\ASDFQWER.conf", 'w')
     for line in SRC_LB_FILE:
         line = line.rstrip('\n') + " \n"
         NEW_LB_FILE.write(line)
@@ -128,7 +128,7 @@ def main():
 
     format_file()
 
-    LB_FILE = open("c:\Software\phxlb214.conf", 'r')
+    LB_FILE = open("c:\Software\ASDFQWER.conf", 'r')
 
     pool = "cfgedit-web-1-443"
 
